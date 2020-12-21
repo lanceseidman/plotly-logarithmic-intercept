@@ -1,0 +1,30 @@
+<html>
+<head>
+<!-- Load plotly.js into the DOM -->
+<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+  <style>
+  .centered {
+    position: absolute;
+    top: 37%;
+    left: 30%;
+    font-size: 1.6em;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 0px 7px 9px #000;
+  }
+  #results {
+    display: none;
+  }
+  </style>
+</head>
+
+<body>
+<div id='myDiv'>
+  <!-- Plotly chart will be drawn inside this DIV --></div>   
+  <div class="centered">
+    PRELIMINARY PLOT.
+  </div>
+  <div id="results"></div>
+  <script src="plotjs.js">
+</body>
+</html>
